@@ -1,0 +1,29 @@
+<!Doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width-device=width,initial-scale=1">
+        <title>Weather App</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="Script.js" defer></script>
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    </head>
+<body>
+    <div class="card">
+        <div class="search">
+            <input type="text" class="search-bar" placeholder="Search">
+            <button><i class="fas fa-search"></i></button>
+        </div>
+    <div class="weather loading">
+        <h2 class="city"></h2>
+        <h1 class="temp">51°C</h1>
+        <div class="flex">
+        <img src="https://openweathermap.org/img/wn/01n@2x.png" alt="" class="icon" />
+        <div class="description"></div>
+        </div>
+        <div class="humidity"></div>
+        <div class="wind"></div>
+    </div>
+</div>
+</body>
+</html>
